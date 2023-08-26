@@ -26,6 +26,9 @@ Open [http://localhost:3000] to the development server of react app.
 
 Run: (Create the DB Models)
 
+A local database exists,
+it is possible to create a new one using following commands
+
 ####  `sequelize init`
 
 #### `sequelize model:create --name House --attributes address:string,currentValue:float,loanAmount:float,risk:float --force`
