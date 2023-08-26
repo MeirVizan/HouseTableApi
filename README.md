@@ -26,7 +26,10 @@ Open [http://localhost:3000] to the development server of react app.
 
 Run: (Create the DB Models)
 
-Install MySQL in computer and create schema with name: 'House' 
+####  `sequelize init`
+
+#### `sequelize model:create --name House --attributes address:string,currentValue:float,loanAmount:float,risk:float --force`
+#### `npx sequelize-cli db:migrate`
 
 Runs the server in the development mode.
 

@@ -1,9 +1,19 @@
 {
   "development": {
-    "username": "root",
-    "password": "root",
-    "database": "House",
-    "host": "localhost",
-    "dialect": "mysql"
+   
+    "dialect": "sqlite",
+    "storage": "development.db",
+    "operatorsAliases": false
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": "test.db",
+    "operatorsAliases": false
+  },
+  "production": {
+    
+    "dialect": "sqlite",
+    "storage": "production.db",
+    "operatorsAliases": false
   }
 }
